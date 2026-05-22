@@ -1,0 +1,14 @@
+{
+  "name": "market-live-tracker",
+  "version": "1.0.0",
+  "description": "Live market tracker for NSE, BSE, and US stocks with concise market news",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.21.0",
+    "rss-parser": "^3.13.0"
+  }
+}

@@ -1,0 +1,33 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, Arial, sans-serif;
+}
+body {
+  margin: 0;
+  background: #0f1320;
+  color: #f5f7ff;
+}
+header {
+  padding: 1rem 1.5rem;
+  background: #1a2340;
+  border-bottom: 1px solid #2f3a65;
+}
+main {
+  padding: 1rem 1.5rem 2rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.8rem;
+}
+.card {
+  background: #18213b;
+  border: 1px solid #31406f;
+  border-radius: 10px;
+  padding: 0.8rem;
+}
+.price { font-size: 1.2rem; font-weight: 700; }
+.meta { color: #b8c1e8; font-size: 0.85rem; }
+ul { padding-left: 1.3rem; }
+a { color: #9fc0ff; text-decoration: none; }
+a:hover { text-decoration: underline; }
