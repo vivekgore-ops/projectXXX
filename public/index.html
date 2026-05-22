@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live Market Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Live Stock Exchange Tracker</h1>
+      <p>Track NSE, BSE, and US markets + one-line bullet market news.</p>
+      <small id="updated-at">Loading latest data...</small>
+    </header>
+
+    <main>
+      <section>
+        <h2>NSE</h2>
+        <div id="nse" class="grid"></div>
+      </section>
+
+      <section>
+        <h2>BSE</h2>
+        <div id="bse" class="grid"></div>
+      </section>
+
+      <section>
+        <h2>US Exchanges</h2>
+        <div id="us" class="grid"></div>
+      </section>
+
+      <section>
+        <h2>Bullet Point News</h2>
+        <ul id="bullet-news"></ul>
+      </section>
+
+      <section>
+        <h2>Detailed Headlines</h2>
+        <div id="headlines"></div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
